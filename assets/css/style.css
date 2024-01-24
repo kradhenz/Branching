@@ -22,7 +22,8 @@ header {
 }
 
 .container {
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h1 {
@@ -76,9 +77,21 @@ img {
     top: 6px;
 }
 
+footer {
+    height: 150px;
+    background-color: var(--light-gray);
+    color: var(--white);
+    text-align: center;
+}
+
+footer p {
+    font-size: x-large;
+    padding-top: 55px;
+}
+
 @media (max-width: 768px) {
     header {
-        width: 320px;
+        width: 320px auto;
         height: auto;
         background-position-x: center;
     }
@@ -90,14 +103,15 @@ img {
 
     img {
         max-width: 30%;
-        padding-bottom: 20px;
-        display: block;
-        margin: 0 auto;
-        border-radius: 50%;
     }
 
     .btn {
         width: 75%;
         padding: 20px 30px;
+    }
+    
+    footer p {
+        font-size: medium;
+        padding-top: 55px;
     }
 }
