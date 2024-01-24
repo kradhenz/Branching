@@ -44,6 +44,10 @@ img {
     border-radius: 50%;
 }
 
+form {
+    padding: 30px;
+}
+
 .btn {
     outline: none;
     border: none;
@@ -109,7 +113,7 @@ footer p {
         width: 75%;
         padding: 20px 30px;
     }
-    
+
     footer p {
         font-size: medium;
         padding-top: 55px;
